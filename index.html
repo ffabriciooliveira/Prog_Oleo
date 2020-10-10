@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prog Óleo</title>
+  <link rel="stylesheet" href="/style.css">
+  
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="icon" type="image/gif" href="animated_favicon1.gif">
+  
+</head>
+<body>
+  <!-- Logo do aplicativo -->
+  <div id="logo">
+    <img src="/logo.jpeg" alt="Logo Prog Oleo"> 
+  </div>
+
+  <!-- Os tipos de pessoas que ira acessar o sistema, com os seus valores nos botões -->
+  <div id="clientes">
+    
+    <form id="usu"action="">
+      <input class="botao" type="button" onclick="usuario()" value="Usuário"/>
+    </form>
+
+      </br>
+
+    <form id="estab"action="">
+      <input class="botao" type="button" onclick="estabelecimento()" value="Estabelecimento"/>
+    </form>
+
+      </br>
+
+    <form id="adm"action="">
+      <input class="botao" type="button" onclick="adm()" value="ADM"/>
+    </form>
+
+      <h4 id="senha_estab_email_adm"></h4>
+      <h4 id="senha_adm"></h4>
+      <button id="entrar"></button>
+                </br>
+      <button id="esqueciSenha" onclick="esqueciSenha()"></button>
+      <button id="criarConta" onclick="criarConta()"></button>
+
+  </div>
+
+    <footer>
+      <p>&copy; ProgÓleo</p>
+    </footer>
+
+    <!-- Arquivos Scripts utilizados -->
+  <script src="/index.js"></script>
+  <script src="/esqueciSenha.js"></script>
+  <script src="/criarConta.js"></script>
+  
+</body>
+</html>

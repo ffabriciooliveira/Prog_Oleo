@@ -1,0 +1,36 @@
+#clientes{
+  text-align: center;
+}
+
+#logo{
+  margin: 40px 0px;
+  text-align: center;
+}
+
+#usu, #estab, #adm{
+  text-align: center;
+}
+
+.botao{
+  font-size: 20px;
+  width: 300px;
+  color: white;
+  background-color:#182C61;
+  border: 0px;
+}
+
+#entrar, #esqueciSenha, #criarConta{
+  box-shadow: none;
+  color: black;
+  border: none;
+  outline:none;
+  margin: 35px;
+  background-color: white;
+}
+
+footer{
+  color: #182C61;
+  text-align: center;
+  font-style: italic;
+}
+
