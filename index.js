@@ -7,6 +7,7 @@ function usuario(){
   var entrar = document.getElementById("entrar")
   var esqueciSenha = document.getElementById("esqueciSenha")
   var criarConta = document.getElementById("criarConta")
+  var voltar = document.getElementById("voltar")
 
   // Retornando ao HTML os dados feitos com o JS
   estab.innerHTML = "<input placeholder='E-mail:'></input>"
@@ -14,6 +15,7 @@ function usuario(){
   entrar.innerHTML = "<button> ENTRAR </button>"
   esqueciSenha.innerHTML = "Esqueci minha senha:"
   criarConta.innerHTML = "Criar Conta:"
+  voltar.innerHTML = "Voltar"
 
 }
 
@@ -26,6 +28,7 @@ function estabelecimento(){
   var entrar = document.getElementById("entrar")
   var senha = document.getElementById("senha_estab_email_adm")
   var esqueciSenha = document.getElementById("esqueciSenha")
+  var voltar = document.getElementById("voltar")
   
   usu.innerHTML = ""
   
@@ -34,6 +37,7 @@ function estabelecimento(){
   senha.innerHTML = "<input type='password' placeholder='Senha:'></input>"
   entrar.innerHTML = "<button> ENTRAR </button>"
   esqueciSenha.innerHTML = "Esqueci minha senha:"
+  voltar.innerHTML = "Voltar"
 
 }
 
@@ -46,6 +50,7 @@ function adm(){
   var entrar = document.getElementById("entrar")
   var email = document.getElementById("senha_estab_email_adm")
   var senha = document.getElementById("senha_adm")
+  var voltar = document.getElementById("voltar")
   
   usu.innerHTML = "" 
   estab.innerHTML = ""
@@ -54,5 +59,6 @@ function adm(){
   email.innerHTML = "<input placeholder='E-mail:'></input>"
   senha.innerHTML = "<input type='password' placeholder='Senha:'></input>"
   entrar.innerHTML = "<button onclick=''> ENTRAR </button>"
+  voltar.innerHTML = "Voltar"
 
 }

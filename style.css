@@ -19,7 +19,7 @@
   border: 0px;
 }
 
-#entrar, #esqueciSenha, #criarConta{
+#entrar, #esqueciSenha, #criarConta, #voltar{
   box-shadow: none;
   color: black;
   border: none;
