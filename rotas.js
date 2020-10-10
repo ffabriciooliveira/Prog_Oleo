@@ -51,6 +51,6 @@ function criarConta(){
 
 // Função para retornar a tela inicial
 function voltar(){
-  window.open(document.referrer,'_self');
+  location.href = document.referrer;
 }
 
